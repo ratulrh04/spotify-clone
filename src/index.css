@@ -1,2 +1,24 @@
+/* Import the inter and zalando google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
 /* tailwind css import link */
 @import "tailwindcss";
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgba(39, 37, 37, 0.688);
+}
+span, ul, li{
+     font-family: "Zalando Sans", sans-serif;
+}
+
+/* Custom css write here */
+
+/* Nav Placeholder edit here */
+.nav-search-input::placeholder{
+    position: absolute;
+    margin-left: 43px !important;
+    color: #b2adad;
+    font-size: 15px;
+    margin-top: 3px;
+}

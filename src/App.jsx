@@ -1,16 +1,19 @@
+import Navbar from "./components/Navbar";
+import MainLayout from "./components/MainLayout";
+import MusicPlayer from "./components/MusicPlayer";
 
-import MainLayout from './components/MainLayout';
-import Navbar from './components/Navbar';
-import MusicPlayer from './components/MusicPlayer';
-
-const App = () => {
+function App() {
   return (
-    <div>
-        <Navbar/>
-        <MainLayout/>
-        <MusicPlayer/>
+    <div className="h-screen flex flex-col bg-black">
+      <Navbar />
+
+      <div className="flex-1 overflow-hidden">
+        <MainLayout />
+      </div>
+
+      <MusicPlayer />
     </div>
   );
-};
+}
 
 export default App;

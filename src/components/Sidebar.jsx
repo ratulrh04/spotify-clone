@@ -1,11 +1,9 @@
-
-
 const Sidebar = () => {
-    return (
-        <div>
-            <h1>Sidebar</h1>
-        </div>
-    );
+  return (
+    <div className="w-18 bg-zinc-900">
+      Left Sidebar
+    </div>
+  );
 };
 
 export default Sidebar;

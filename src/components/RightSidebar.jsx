@@ -1,11 +1,9 @@
-
-
 const RightSidebar = () => {
-    return (
-        <div>
-            <h1>RightSide Bar</h1>
-        </div>
-    );
+  return (
+    <div className="w-70 bg-zinc-900">
+      Right Sidebar
+    </div>
+  );
 };
 
 export default RightSidebar;
