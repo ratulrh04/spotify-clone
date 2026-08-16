@@ -1,3 +1,4 @@
+import BannerSectionMainContent from "./BannerSectionMainContent";
 import QuickPickCard from "./QuickPickCard";
 
 const MainContent = () => {
@@ -10,7 +11,8 @@ const MainContent = () => {
 
         {/* Quick Picks Cards */}
          <QuickPickCard/>
-
+        {/* BannerSectionMainContent */}
+        <BannerSectionMainContent/>
     </div>
   );
 };

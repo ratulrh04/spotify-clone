@@ -22,3 +22,28 @@ span, ul, li{
     font-size: 15px;
     margin-top: 3px;
 }
+
+
+/* Customizing default Swiper navigation buttons */
+/* .mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  color: #000; 
+  background-color: #fff; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+} */
+
+/* Change icon size */
+/* .mySwiper .swiper-button-prev::after,
+.mySwiper .swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+/* Hover state */
+/* .mySwiper .swiper-button-prev:hover,
+.mySwiper .swiper-button-next:hover {
+  background-color: #f3f4f6;
+}  */

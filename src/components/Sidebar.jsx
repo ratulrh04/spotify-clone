@@ -1,7 +1,12 @@
+
+
+
 const Sidebar = () => {
   return (
     <div className="w-18 bg-zinc-900">
-      Left Sidebar
+        <div>
+          <button></button>
+        </div>
     </div>
   );
 };
