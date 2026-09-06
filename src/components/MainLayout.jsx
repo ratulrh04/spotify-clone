@@ -4,7 +4,7 @@ import RightSidebar from "./RightSidebar";
 
 const MainLayout = () => {
   return (
-    <div className="flex h-full">
+    <div className="flex h-full gap-1">
       <Sidebar />
 
       <MainContent />
